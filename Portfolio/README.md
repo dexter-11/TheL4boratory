@@ -18,3 +18,4 @@ Template Credits - [ Aditya Vikram Singh ](https://github.com/AVS1508/My-Alterna
 - Add a section, of what my current objectives are.. and what I'm doing
 - Add eJPT certified pic and verification link
 - Add other certification pics and links
+- Decrease icon size in skills
