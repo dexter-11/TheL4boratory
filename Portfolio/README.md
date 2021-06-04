@@ -11,10 +11,7 @@ Template Credits - [ Aditya Vikram Singh ](https://github.com/AVS1508/My-Alterna
 
 ## To-do
 - Change Color scheme (Darkish something), and any wrong icon colors.
-- Add HTB, TryHackMe pages
-- Add projects
-- Modify all descriptions
-- Add Twitter link
+- If possible, change icons of HTB
 - Add a section, of what my current objectives are.. and what I'm doing
 - Add eJPT certified pic and verification link
 - Add other certification pics and links
