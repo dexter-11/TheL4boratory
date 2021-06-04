@@ -10,6 +10,7 @@
 Template Credits - [ Aditya Vikram Singh ](https://github.com/AVS1508/My-Alternate-Portfolio-Website)
 
 ## To-do
+- Change Color scheme (Darkish something), and any wrong icon colors.
 - Add HTB, TryHackMe pages
 - Add projects
 - Modify all descriptions
