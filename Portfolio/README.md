@@ -10,9 +10,6 @@
 Template Credits - [ Aditya Vikram Singh ](https://github.com/AVS1508/My-Alternate-Portfolio-Website)
 
 ## To-do
-- Change Color scheme (Darkish something), and any wrong icon colors.
 - If possible, change icons of HTB
 - Add a section, of what my current objectives are.. and what I'm doing
-- Add eJPT certified pic and verification link
-- Add other certification pics and links
-- Decrease icon size in skills
+
