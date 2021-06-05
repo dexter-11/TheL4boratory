@@ -66,14 +66,14 @@
             target="_blank"
             href="https://app.hackthebox.eu/profile/229097"
           >
-            <i class="icon fa fa-user" aria-hidden="true"></i>
+            <i class="icon fa fa-cube" aria-hidden="true"></i>
           </a>
           <a
           aria-label="THM"
           target="_blank"
           href="https://tryhackme.com/p/Dexter9"
           >
-          <i class="icon fa fa-hacker-news" aria-hidden="true"></i>
+          <i class="icon fa fa-cloud" aria-hidden="true"></i>
           </a>
           <a
           aria-label="Twitter"
@@ -118,20 +118,82 @@
         </p>
       </div>
 
+      <!-- User Introduction-->
+      <div class="user-details">
+        <h2>Certifications</h2>
+        <img
+          width="13%"
+          alt="eJPT"
+          src="./assets/img/Badge_eJPT.png"
+        />
+        <img
+          width="10%"
+          alt="IBM Cybersecurity Analyst"
+          src="./assets/img/Badge_IBM1.png"
+        />
+        <img
+          width="10%"
+          alt="Cisco Badge 1"
+          src="./assets/img/Badge_Cisco1.png"
+        />
+        <img
+          width="10%"
+          alt="IBM Threat Hunter"
+          src="./assets/img/Badge_IBM2.png"
+        />
+
+        <!-- Only for Button -->
+        <style>
+          .button {
+            background-color: #f8f1f1; /* Green */
+            border: 2px solid #7e7e7e;
+            border-radius: 8px;
+            color: black;
+            padding: 8px 18px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 14px;
+            margin: 4px 2px;
+            cursor: pointer;
+            -webkit-transition-duration: 0.4s; /* Safari */
+            transition-duration: 0.4s;
+          }
+          
+          .button:hover {
+            box-shadow: 0 5px 8px 0 rgba(0,0,0,0.24),0 9px 20px 0 rgba(0,0,0,0.19);
+          }
+        </style>
+        <p><b> Verify here - </b>
+        <button onclick="NewTab()"" class=button button>eJPT</button>
+        <button onclick="NewTab1()"" class=button button>IBM CA</button>
+        </p>
+        <script>
+            function NewTab() {
+                window.open(
+                  "https://drive.google.com/file/d/1T6Ds-iz53n-2fJoBT34r0z8qBcSWhYCz/view?usp=sharing", "_blank");
+            }
+            function NewTab1() {
+                window.open(
+                  "https://drive.google.com/file/d/1xNjeeHyklBZMcChndGHTLycn7jSpa_09/view?usp=sharing", "_blank");
+            }
+        </script>
+      </div>
+      
       <!-- User Specifics -->
       <div class="user">
         <!-- Technology Stack #1: Languages -->
         <div class="tech">
-          <h2>Scripting / Programming</h2>
-          <i class="devicon-python-plain colored"></i>
+          <h3>Scripting, Programming</h3>
+          <i class="devicon-python-plain colored" style="font-size: 0.8em;"></i>
           <img
-              height="72"
-              width="72"
+              height="58"
+              width="58"
               src="https://unpkg.com/simple-icons@3.4.0/icons/gnubash.svg"
           />
           <br>
           <!-- <i class="devicon-bash-plain colored"></i> -->
-          <i class="devicon-cplusplus-plain colored"></i>
+          <i class="devicon-cplusplus-plain colored" style="font-size: 0.8em;"></i>
           <i class=""></i>
           <p>
             My favorite languages for programming, shell scripting,
@@ -141,11 +203,11 @@
 
         <!-- Technology Stack #2: Wed Dev -->
         <div class="tech">
-          <h2>Web Development</h2>
-          <i class="devicon-mysql-plain-wordmark colored"></i>
-          <i class="devicon-php-plain colored"></i>
-          <i class="devicon-html5-plain-wordmark colored"></i>
-          <i class="devicon-css3-plain-wordmark colored"></i>
+          <h3>Web Dev</h3>
+          <i class="devicon-mysql-plain-wordmark colored" style="font-size: 0.8em;"></i>
+          <i class="devicon-php-plain colored" style="font-size: 0.8em;"></i>
+          <i class="devicon-html5-plain-wordmark colored" style="font-size: 0.8em;"></i>
+          <i class="devicon-css3-plain-wordmark colored" style="font-size: 0.8em;"></i>
           <i class=""></i>
           <p>
             My preferred languages and softwares for basic web developement.
@@ -154,23 +216,23 @@
 
         <!-- Technology Stack #3: OS -->
         <div class="tech">
-          <h2>Operating Systems</h2>
-          <i class="devicon-windows8-original colored"></i>
-          <i class="devicon-linux-plain colored"></i>
-          <i class="devicon-ubuntu-plain-wordmark colored"></i>
-          <i class="devicon-debian-plain-wordmark colored"></i>
+          <h3>OS/Env</h3>
+          <i class="devicon-windows8-original colored" style="font-size: 0.8em;"></i>
+          <i class="devicon-linux-plain colored" style="font-size: 0.8em;"></i>
+          <i class="devicon-ubuntu-plain-wordmark colored" style="font-size: 0.8em;"></i>
+          <i class="devicon-debian-plain-wordmark colored" style="font-size: 0.8em;"></i>
           <i class=""></i>
           <p>
-            My preferred Operating Systems and environments to work with.
+            My preferred OS and environments to work with.
           </p>
         </div>
 
         <!-- Technology Stack #4: Other Softwares -->
         <div class="tech">
-          <h2>Other Softwares</h2>
-          <i class="devicon-visualstudio-plain colored"></i>
-          <i class="devicon-github-plain colored"></i>
-          <i class="devicon-photoshop-line colored"></i>
+          <h3>Other Softwares</h3>
+          <i class="devicon-visualstudio-plain colored" style="font-size: 0.8em;"></i>
+          <i class="devicon-github-plain colored" style="font-size: 0.8em;"></i>
+          <i class="devicon-photoshop-line colored" style="font-size: 0.8em;"></i>
           <img
               height="72"
               width="72"
@@ -345,16 +407,11 @@
             covered OWASP Top 10 vulnerabilities and a privilege escalation
             vector involving sudo misconfiguration.
           </p>
-          <a
-            class="project-link"
-            target="_blank"
-            href=""
-          >
-            Check it out!
-          </a>
-        </div>
+          </div>
       </div>
-
+      <h3 align="center">
+        <b>For more projects, Check out my Github page!</b>
+      </h3>
       <!-- Use Project #4:  
       <div class="user-projects">
         <div class="images-left">
