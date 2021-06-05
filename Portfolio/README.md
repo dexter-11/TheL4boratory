@@ -10,6 +10,5 @@
 Template Credits - [ Aditya Vikram Singh ](https://github.com/AVS1508/My-Alternate-Portfolio-Website)
 
 ## To-do
-- If possible, change icons of HTB
 - Add a section, of what my current objectives are.. and what I'm doing
 
