@@ -1,6 +1,6 @@
 /*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
-@import url(https://fonts.googleapis.com/css?family=Nunito+Sans);
-@import url(https://fonts.googleapis.com/css?family=Rubik);
+@import url(https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Ubuntu&display=swap);
 
 html {
     line-height: 1.15;
@@ -14,7 +14,7 @@ body {
     font-size: 100%;
     line-height: 1.5;
     color: #555;
-    font-family: 'Nunito Sans', sans-serif
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 article,
@@ -4821,11 +4821,11 @@ a img {
 }
 
 #particles-js {
-    background: #1488CC;
+    background: #42378f;
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #2B32B2, #1488CC);
+    background: -webkit-linear-gradient(to right, #42378f, #f53844);
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #2B32B2, #1488CC);
+    background: linear-gradient(to right, #42378f, #f53844);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
     display: flex;
@@ -4847,7 +4847,7 @@ a img {
     text-align: center;
     color: #fff;
     position: absolute;
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     width: 80%;
     top: 50%;
     left: 50%;
@@ -4983,7 +4983,7 @@ a img {
 }
 
 .tech {
-    margin: 10px
+    margin: 8px
 }
 
 .user {
@@ -5097,18 +5097,18 @@ a img {
 
 .project-link:active,
 .project-link:hover {
-    background-color: #5347a8;
-    border-color: #5347a8;
+    background-color: #9941d4;
+    border-color: #42378f;
     color: #fff;
-    transition: color .3s ease-in, background-color .3s ease-in, border-color .3s ease-in
+    transition: color .2s ease-in, background-color .2s ease-in, border-color .3s ease-in
 }
 
 .footer {
-    background: #1488CC;
+    background: #42378f;
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #2B32B2, #1488CC);
+    background: -webkit-linear-gradient(to right, #42378f, #f53844);
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #2B32B2, #1488CC);
+    background: linear-gradient(to right, #42378f, #f53844);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     padding: 10px 0;
     margin-top: 100px;
